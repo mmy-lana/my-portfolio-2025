@@ -15,7 +15,7 @@
           "options": {
             "baseHref": "/my-portfolio-2025/",
             "deployUrl": "/my-portfolio-2025/",
-            "outputPath": "dist/portfolio-mmy-lana",
+            "outputPath": "dist/my-portfolio-2025",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
