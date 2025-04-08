@@ -15,7 +15,7 @@
           "options": {
             "baseHref": "/my-portfolio-2025/",
             "deployUrl": "/my-portfolio-2025/",
-            "outputPath": "dist/my-portfolio-2025",
+            "outputPath": "dist/my-portfolio-2025/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -85,5 +85,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
