@@ -41,11 +41,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# PostCSS files
-.postcssrc.json
-.postcssrc
-.postcss.config.js
-
 # Node/npm files
 node_modules/
 dist/
