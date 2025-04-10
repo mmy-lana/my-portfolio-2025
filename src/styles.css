@@ -1,4 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
 @import "tailwindcss-animated";
+
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* 🌞 Light theme */
+:root {
+  --color-primary: #1D4ED8;
+  --color-secondary: #F59E0B;
+  --color-background: #F9FAFB;
+  --color-text: #1F2937;
+
+  --font-sans: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-alt: 'Arial', sans-serif;
+}
+
+/* 🌚 Dark theme */
+.dark {
+  --color-primary: #60A5FA;
+  --color-secondary: #FBBF24;
+  --color-background: #111827;
+  --color-text: #F9FAFB;
+}
+
+/* ✅ Utility classes */
+.theme-bg {
+  background-color: var(--color-background);
+}
+
+.theme-text {
+  color: var(--color-text);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-alt {
+  font-family: var(--font-alt);
+}

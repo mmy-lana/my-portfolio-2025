@@ -1,9 +1,11 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-theme-toggle',
   standalone: true,
   templateUrl: './theme-toggle.component.html',
+  styleUrls: ['./theme-toggle.component.css'],
+
 })
 export class ThemeToggleComponent implements OnInit {
   isDark = false;
