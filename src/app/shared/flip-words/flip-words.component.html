@@ -1,0 +1,14 @@
+<span class="relative inline-block transition-all duration-500 ease-in-out">
+  <ng-container *ngIf="currentWord">
+    <ng-container *ngFor="let word of currentWord.split(' '); let wi = index">
+      <span class="inline-block whitespace-nowrap">
+        <ng-container *ngFor="let letter of word.split(''); let li = index">
+          <span class="inline-block animate-fade-in tracking-tight">
+            {{ letter }}
+          </span>
+        </ng-container>
+        <span class="inline-block">&nbsp;</span>
+      </span>
+    </ng-container>
+  </ng-container>
+</span>

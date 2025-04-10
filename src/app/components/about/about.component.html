@@ -1,21 +1,18 @@
-<div
-  class="animate-fade-down animate-ease-in-out animate-normal animate-fill-forwards flex justify-center items-center flex-col">
+<div class="animate-fade-down flex justify-center items-center flex-col">
   <div class="flex flex-col md:flex-row w-full md:w-3/4 mx-auto justify-center items-center">
     <div class="w-full md:w-1/2 flex justify-center">
-      <img src="./../../../assets/icons/me-icons.png" class="w-[50%]" />
+      <img src="assets/icons/me-icons.png" class="w-[50%]" />
     </div>
     <div class="w-full md:w-1/2 text-center md:text-left">
       <h1 class="text-base md:text-lg font-medium leading-relaxed">
-        I'm Muhammad Maulana Yusuf, a Software Engineer with hands-on experience in Angular, React,
-        TypeScript, and
-        TailwindCSS. I enjoy building clean, responsive, and scalable web applications with a strong focus on code
-        reusability
-        and maintainability.
+        I'm Muhammad Maulana Yusuf, a
+        <app-flip-words [words]="roles" [duration]="3000"></app-flip-words>
+        with hands-on experience in
+        <app-flip-words [words]="skills" [duration]="2500"></app-flip-words>.
       </h1>
       <h1 class="text-base md:text-lg font-medium leading-relaxed">
-        I take pride in writing well-structured code and creating user experiences that are both intuitive and
-        efficient.
-        Whether it's developing new features or refining existing ones, I’m always looking to build better and smarter.
+        I enjoy building scalable, responsive, and maintainable applications with clean architecture and a focus on
+        developer experience.
       </h1>
     </div>
   </div>
