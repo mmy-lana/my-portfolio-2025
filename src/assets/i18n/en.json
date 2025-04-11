@@ -1,0 +1,18 @@
+{
+  "about": {
+    "intro": "I'm Muhammad Maulana Yusuf, a",
+    "experience": "with hands-on experience in",
+    "enjoy": "I enjoy building scalable, responsive, and maintainable applications with clean architecture and a focus on developer experience.",
+    "roles": [
+      "Software Engineer",
+      "Frontend Developer",
+      "Web Engineer",
+      "Angular Enthusiast"
+    ],
+    "skills": [
+      "Angular",
+      "React",
+      "TypeScript"
+    ]
+  }
+}
