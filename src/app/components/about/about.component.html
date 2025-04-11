@@ -5,14 +5,13 @@
     </div>
     <div class="w-full md:w-1/2 text-center md:text-left">
       <h1 class="text-base md:text-lg font-medium leading-relaxed text-[var(--color-text)]">
-        I'm Muhammad Maulana Yusuf, a
+        {{ 'about.intro' | translate }}
         <app-flip-words [words]="roles" [duration]="3000"></app-flip-words>
-        with hands-on experience in
+        {{ 'about.experience' | translate }}
         <app-flip-words [words]="skills" [duration]="2500"></app-flip-words>.
       </h1>
       <h1 class="text-base md:text-lg font-medium leading-relaxed text-[var(--color-text)]">
-        I enjoy building scalable, responsive, and maintainable applications with clean architecture and a focus on
-        developer experience.
+        {{ 'about.enjoy' | translate }}
       </h1>
     </div>
   </div>

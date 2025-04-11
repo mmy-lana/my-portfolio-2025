@@ -1,0 +1,10 @@
+<div class="flex gap-2">
+  <button class="px-2 py-1 rounded text-sm border" [class.bg-blue-300]="currentLang === 'en'"
+    (click)="switchLang('en')">
+    EN
+  </button>
+  <button class="px-2 py-1 rounded text-sm border" [class.bg-blue-300]="currentLang === 'id'"
+    (click)="switchLang('id')">
+    ID
+  </button>
+</div>
