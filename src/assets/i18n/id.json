@@ -5,14 +5,33 @@
     "enjoy": "Saya senang membangun aplikasi yang skalabel, responsif, dan mudah dipelihara dengan arsitektur yang bersih dan fokus pada pengalaman pengembang.",
     "roles": [
       "Software Engineer",
+      "Full Stack Developer",
       "Frontend Developer",
-      "Web Engineer",
-      "Angular Enthusiast"
+      "Backend Developer",
+      "Web Developer"
     ],
     "skills": [
       "Angular",
       "React",
-      "TypeScript"
+      "React TypeScript",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "C#",
+      ".NET",
+      "ASP.NET",
+      "ADO.NET",
+      "Entity Framework",
+      "MySQL",
+      "SQL",
+      "PostgreSQL",
+      "Jira",
+      "Confluence",
+      "Bitbucket",
+      "Gitlab"
     ]
   }
 }
